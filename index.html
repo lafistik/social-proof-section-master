@@ -12,22 +12,120 @@
       href="./images/favicon-32x32.png"
     />
 
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
     <title>Frontend Mentor | Social proof section</title>
 
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   </head>
   <body>
-    10,000+ of our users love our products. We only provide great products
-    combined with excellent customer service. See what our satisfied customers
-    are saying about our services. Rated 5 Stars in Reviews Rated 5 Stars in
-    Report Guru Rated 5 Stars in BestTech Colton Smith Verified Buyer "We needed
-    the same printed design as the one we had ordered a week prior. Not only did
-    they find the original order, but we also received it in time. Excellent!"
-    Irene Roberts Verified Buyer "Customer service is always excellent and very
-    quick turn around. Completely delighted with the simplicity of the purchase
-    and the speed of delivery." Anne Wallace Verified Buyer "Put an order with
-    this company and can only praise them for the very high standard. Will
-    definitely use them again and recommend them to everyone!"
+    <section class="testimonials">
+      <div class="testimonials__intro">
+        <h1 class="testimonials__intro-title">
+          10,000+ of our users love our products.
+        </h1>
+        <p class="testimonials__intro-description">
+          We only provide great products combined with excellent customer
+          service. See what our satisfied customers are saying about our
+          services.
+        </p>
+      </div>
+      <div class="testimonials__reviews">
+        <div class="testimonials__reviews-el el-1">
+          <div class="stars">
+            <img src="./images/icon-star.svg" alt="star icon" srcset="" />
+            <img src="./images/icon-star.svg" alt="star icon" srcset="" />
+            <img src="./images/icon-star.svg" alt="star icon" srcset="" />
+            <img src="./images/icon-star.svg" alt="star icon" srcset="" />
+            <img src="./images/icon-star.svg" alt="star icon" srcset="" />
+          </div>
+          <p>Rated 5 Stars in Reviews</p>
+        </div>
+        <div class="testimonials__reviews-el el-2">
+          <div class="stars">
+            <img src="./images/icon-star.svg" alt="star icon" srcset="" />
+            <img src="./images/icon-star.svg" alt="star icon" srcset="" />
+            <img src="./images/icon-star.svg" alt="star icon" srcset="" />
+            <img src="./images/icon-star.svg" alt="star icon" srcset="" />
+            <img src="./images/icon-star.svg" alt="star icon" srcset="" />
+          </div>
+          <p>Rated 5 Stars in Report Guru</p>
+        </div>
+        <div class="testimonials__reviews-el el-3">
+          <div class="stars">
+            <img src="./images/icon-star.svg" alt="star icon" srcset="" />
+            <img src="./images/icon-star.svg" alt="star icon" srcset="" />
+            <img src="./images/icon-star.svg" alt="star icon" srcset="" />
+            <img src="./images/icon-star.svg" alt="star icon" srcset="" />
+            <img src="./images/icon-star.svg" alt="star icon" srcset="" />
+          </div>
+          <p>Rated 5 Stars in BestTech</p>
+        </div>
+      </div>
+      <div class="testimonials__user-cards">
+        <div class="testimonials__user-card el-1">
+          <div class="user-header">
+            <div class="user-image">
+              <img src="./images/image-colton.jpg" alt="Mr. Colton Smith" />
+            </div>
+            <div class="user-info">
+              <p class="user-name">Colton Smith</p>
+              <p class="user-status">Verified Buyer</p>
+            </div>
+          </div>
+          <blockquote>
+            <p class="user-testimonial">
+              We needed the same printed design as the one we had ordered a week
+              prior. Not only did they find the original order, but we also
+              received it in time. Excellent!
+            </p>
+          </blockquote>
+          <!--  -->
+        </div>
+
+        <div class="testimonials__user-card el-2">
+          <div class="user-header">
+            <div class="user-image">
+              <img src="./images/image-irene.jpg" alt="Ms. Irene Roberts" />
+            </div>
+            <div class="user-info">
+              <p class="user-name">Irene Roberts</p>
+              <p class="user-status">Verified Buyer</p>
+            </div>
+          </div>
+          <blockquote>
+            <p class="user-testimonial">
+              Customer service is always excellent and very quick turn around.
+              Completely delighted with the simplicity of the purchase and the
+              speed of delivery.
+            </p>
+          </blockquote>
+        </div>
+
+        <div class="testimonials__user-card el-3">
+          <div class="user-header">
+            <div class="user-image">
+              <img src="./images/image-anne.jpg" alt="Ms. Anne Wallace" />
+            </div>
+            <div class="user-info">
+              <p class="user-name">Anne Wallace</p>
+              <p class="user-status">Verified Buyer</p>
+            </div>
+          </div>
+          <blockquote>
+            <p class="user-testimonial">
+              Put an order with this company and can only praise them for the
+              very high standard. Will definitely use them again and recommend
+              them to everyone!
+            </p>
+          </blockquote>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
